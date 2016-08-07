@@ -1,7 +1,5 @@
 package com.bc.jde.dis.request.service;
 
-import com.bc.jde.dis.request.entity.DataField;
-import com.bc.jde.dis.request.entity.DataObject;
 import com.bc.jde.dis.request.entity.DataRow;
 import java.sql.Connection;
 import java.sql.DriverManager;

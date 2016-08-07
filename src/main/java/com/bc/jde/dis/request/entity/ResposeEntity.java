@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class ResposeEntity extends RequestEntity{
     private Date startTime;
     private Date endTime;
-    private List<DataField> dataFields;
+    private List<DataRow> rowSet;
     
     public ResposeEntity() {
         super();
@@ -41,13 +41,15 @@ public class ResposeEntity extends RequestEntity{
     }
 @XmlElement
 
-    public List<DataField> getDataFields() {
-        return dataFields;
+    public List<DataRow> getRowSet() {
+        return rowSet;
     }
 
-    public void setDataFields(List<DataField> dataFields) {
-        this.dataFields = dataFields;
+    public void setRowSet(List<DataRow> rowSet) {
+        this.rowSet = rowSet;
     }
+
+  
 
     
     
